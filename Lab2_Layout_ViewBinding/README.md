@@ -17,6 +17,3 @@ Bài thực hành về thiết kế giao diện bằng ConstraintLayout và View
 **Hình ảnh Demo (Lab 2):**
 
 ![Demo Lab 2](lab2_layout_viewbinding/lab2.png)
-
----
-*Các bài Lab tiếp theo sẽ được cập nhật tại đây.*
