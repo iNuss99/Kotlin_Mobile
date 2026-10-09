@@ -2,6 +2,7 @@ package vn.edu.vlsc.lab1helloworld
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -25,6 +26,10 @@ class MainActivity : AppCompatActivity() {
         // 2. Phân biệt val (Hằng) và var (Biến)
         val studentId: String = "2500114713" // val: Chỉ đọc (Read-only), không thể gán lại
         var studentName = "Đỗ Minh Khoa"        // var: Có thể thay đổi giá trị sau này
+
+        // Hiển thị thông tin cá nhân lên giao diện (TextView)
+        val tvStudentInfo = findViewById<TextView>(R.id.tvStudentInfo)
+        tvStudentInfo.text = "MSSV: $studentId\nHọ và tên: $studentName"
 
         // studentName = "Trần Thị B" // Comment lại để không bị đổi tên khi in log
 

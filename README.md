@@ -17,6 +17,7 @@ Kho lưu trữ bài tập và dự án môn **Lập trình Di động Android (K
 | Bài thực hành | Tên dự án | Nội dung chính |
 | :--- | :--- | :--- |
 | **Lab 1** | [`Lab1_helloworld_2500114713`](./Lab1_helloworld_2500114713) | Hello World, Cú pháp Kotlin cơ bản (val/var, Null safety, Logging, Try-Catch) |
+| **Lab 2** | [`Lab2_Layout_ViewBinding`](./Lab2_Layout_ViewBinding) | Thiết kế giao diện ConstraintLayout, ViewBinding, Logic Đăng nhập (Validation) và Chuyển màn hình (Intent) |
 
 ---
 
@@ -25,4 +26,4 @@ Kho lưu trữ bài tập và dự án môn **Lập trình Di động Android (K
 - **Ngôn ngữ:** Kotlin
 - **IDE:** Android Studio
 - **Build System:** Gradle (Kotlin DSL)
-- **Min SDK:** 24 | **Target SDK:** 34/35
+- **Min SDK:** 24 | **Target SDK:** 34-37
